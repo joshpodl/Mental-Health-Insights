@@ -1,14 +1,8 @@
 # import necessary libraries
 
-import pandas as pd
-import numpy as np
-
-from sqlalchemy.ext.automap import automap_base
-from sqlalchemy.orm import Session
+from flask import Flask, render_template, redirect, jsonify
 from sqlalchemy import create_engine
-
-from flask import Flask, jsonify, render_template
-from flask_sqlalchemy import SQLAlchemy
+import pandas as pd
 
 # create instance of Flask app
 app = Flask(__name__)
@@ -19,41 +13,41 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
+# Create database connection
+# change the owner name, password and port number based on your local situation
+# engine = create_engine(f'postgresql://{*database_owner}:{*password}@localhost:{*port}/housing_db')
+rds_connection_string = "postgres:postgres@n@localhost:5433/mentalhealth_db"
+# rds_connection_string = "postgres:delilahjones@n@localhost:5432/mentalhealth_db"
+engine = create_engine(f'postgresql://{rds_connection_string}')
 
-    
-# Using Postgres to load data
-POSTGRES = {
-    'user': 'postgres',
-    'pw': 'postgres',
-    'db': 'mentalhealth_db',
-    'port': '5433',
-}
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://%(user)s:\
-%(pw)s@%(host)s:%(port)s/%(db)s' % POSTGRES
-
-# POSTGRES = {
-#     'user': 'postgres',
-#     'pw': 'delilahjones',
-#     'db': 'mentalhealth_db',
-#     'host': 'localhost',
-#     'port': '5432',
-# }
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://%(user)s:\
-# %(pw)s@%(host)s:%(port)s/%(db)s' % POSTGRES
-db = SQLAlchemy(app)
-
-# reflect an existing database into a new model
-Base = automap_base()
-# reflect the tables
-Base.prepare(db.engine, reflect=True)
-
-# Save references to each table
-Mental_health = Base.classes.mental_health
 
 @app.route("/")
 def index():
     """Return the homepage."""
     return render_template("index.html")
+
+
+
+    phy_ment_df = pd.read_sql("select year, sum(physical_importance)/count(year) as avg_physical_importance, sum(mental_importance)/count(year) as avg_mental_importance from mental_health group by year", con = engine)
+    support_df = pd.read_sql("select year, sum(industry_support)/count(year) as avg_industry_support from mental_health group by year", con = engine)
+    know_yes_df = pd.read_sql("select year, count(know_options) from mental_health where know_options like 'Yes' group by year", con = engine)
+    know_no_df = pd.read_sql("select year, count(know_options) from mental_health where know_options like 'No' group by year", con = engine)
+    merge_know_df = pd.merge('know_yes_df', 'know_no_df')
+
+    phy_ment_dict = phy_ment_df.to_dict()
+    support_dict = support_df.to_dict()
+    know_options_dict = merge_know.to_dict()
+
+    mhData=[phy_ment_dict, support_dict, know_options_dict]
+
+    # Return template and data
+    return render_template("index.html", mhData=mhData)
+
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
 
 # @app.route("/physical")
 # def physical():
@@ -62,36 +56,39 @@ def index():
 #     # Return a list of the column names (sample names)
 #     return jsonify(list(df.columns)[2:])
 
-@app.route("/metadata/<sample>")
-def sample_metadata(sample):
-    """Return the MetaData for a given sample."""
+# @app.route("/metadata/<sample>")
+# def sample_metadata(sample):
+#     """Return the MetaData for a given sample."""
 
-    plot1 = pd.read_sql("select year, sum(physical_importance)/count(year) as avg_physical_importance, sum(mental_importance)/count(year) as avg_mental_importance from mental_health group by year", con = engine)
-    plot2 = pd.read_sql("select year, sum(industry_support)/count(year) as avg_industry_support from mental_health group by year", con = engine)
-    plot3 = pd.read_sql("select year, count(know_options) from mental_health where know_options like 'Yes' group by year", con = engine)
-    plot4 = pd.read_sql("select year, count(know_options) from mental_health where know_options like 'No' group by year", con = engine)
+# @app.route("/physical")
+# def physical():
+#     """Return a list of sample names."""
 
-    sel = [
-        Mental_health.year,
-        Mental_health.physical_importance,
-        Mental_health.mental_importance,
-        Mental_health.industry_support,
-        Mental_health.know_options
-    ]
+#     # Return a list of the column names (sample names)
+#     return jsonify(list(df.columns)[2:])
+
+# @app.route("/metadata/<sample>")
+# def sample_metadata(sample):
+#     """Return the MetaData for a given sample."""
+
+#     sel = [
+#         Mental_health.year,
+#         Mental_health.physical_importance,
+#         Mental_health.mental_importance,
+#         Mental_health.industry_support,
+#         Mental_health.know_options
+#     ]
     
-    results = db.session.query(*sel).all()    
-# Create a dictionary entry for each row of metadata information
-    sample_metadata = {}
-    for result in results:
-        Mental_health["year"] = result[0]
-        Mental_health["physical_importance"] = result[1]
-        Mental_health["mental_importance"] = result[2]
-        Mental_health["industry_support"] = result[3]
-        Mental_health["know_options"] = result[4]
+#     results = db.session.query(*sel).all()    
+# # Create a dictionary entry for each row of metadata information
+#     sample_metadata = {}
+#     for result in results:
+#         Mental_health["year"] = result[0]
+#         Mental_health["physical_importance"] = result[1]
+#         Mental_health["mental_importance"] = result[2]
+#         Mental_health["industry_support"] = result[3]
+#         Mental_health["know_options"] = result[4]
     
 
-        print(sample_metadata)
-        return jsonify(sample_metadata)
-
-if __name__ == "__main__":
-    app.run(debug=True)
+#         print(sample_metadata)
+#         return jsonify(sample_metadata)
