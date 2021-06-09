@@ -1,0 +1,208 @@
+year,tech_company,employer_benefits,know_options,employer_discussed_benefits,employer_resources,anonymity,difficulty_leave,comfortable_discussing,employer_discussed_issues,physical_importance,mental_importance,industry_support,age,gender,country
+2019,TRUE,I don't know,No,Yes,Yes,I don't know,Very easy,Yes,FALSE,5,5,4,25,M,United States of America
+2019,TRUE,Yes,No,No,Yes,Yes,I don't know,Maybe,FALSE,5,7,1,51,M,United States of America
+2019,TRUE,I don't know,No,No,I don't know,I don't know,Somewhat difficult,No,FALSE,5,4,2,27,M,United States of America
+2019,TRUE,I don't know,No,Yes,Yes,Yes,Very easy,Yes,FALSE,1,3,3,37,M,United States of America
+2019,TRUE,I don't know,No,I don't know,I don't know,I don't know,I don't know,No,FALSE,4,4,3,46,M,United States of America
+2019,TRUE,Yes,No,No,No,I don't know,Somewhat difficult,No,FALSE,6,5,3,36,F,United States of America
+2019,TRUE,Yes,Yes,No,I don't know,Yes,Somewhat easy,Maybe,FALSE,5,5,3,39,F,United States of America
+2019,TRUE,Yes,No,Yes,Yes,Yes,Very easy,Yes,FALSE,8,7,2,49,M,United Kingdom
+2019,TRUE,I don't know,N/A,No,I don't know,I don't know,Somewhat easy,Yes,FALSE,8,8,3,45,M,United Kingdom
+2019,TRUE,Yes,Yes,No,I don't know,Yes,Very easy,Yes,TRUE,5,5,4,40,M,United Kingdom
+2019,TRUE,I don't know,No,No,No,Yes,Somewhat easy,Yes,FALSE,7,7,3,31,M,United States of America
+2019,TRUE,Yes,Yes,Yes,I don't know,I don't know,Somewhat difficult,Yes,TRUE,7,5,4,37,M,United States of America
+2019,TRUE,Yes,Yes,Yes,I don't know,I don't know,Somewhat difficult,No,FALSE,7,7,3,26,F,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Yes,TRUE,7,9,2,35,M,United States of America
+2019,TRUE,Yes,No,Yes,I don't know,Yes,Very easy,Yes,FALSE,6,6,3,32,F,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,I don't know,Maybe,FALSE,7,6,3,37,M,United States of America
+2019,TRUE,I don't know,No,No,No,I don't know,Somewhat easy,Maybe,TRUE,8,7,3,41,M,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,I don't know,Yes,TRUE,10,10,4,40,F,United States of America
+2019,TRUE,I don't know,No,No,No,Yes,Neither easy nor difficult,Yes,TRUE,9,5,3,37,M,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Neither easy nor difficult,Maybe,TRUE,6,3,2,53,M,United States of America
+2019,TRUE,I don't know,No,No,No,I don't know,Very easy,No,FALSE,1,1,1,29,M,United States of America
+2019,TRUE,I don't know,No,No,No,I don't know,Somewhat easy,Yes,TRUE,5,9,5,37,M,United States of America
+2019,TRUE,I don't know,No,No,I don't know,I don't know,Very easy,Yes,TRUE,6,6,3,26,M,Netherlands
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Very easy,Yes,TRUE,5,7,4,28,M,United States of America
+2019,TRUE,Yes,Yes,Yes,No,I don't know,I don't know,Yes,TRUE,7,7,3,24,F,United States of America
+2019,TRUE,Yes,Yes,No,I don't know,I don't know,Very easy,Maybe,FALSE,5,5,4,27,M,United States of America
+2019,TRUE,I don't know,No,No,No,Yes,Very easy,Yes,FALSE,8,5,4,27,M,United States of America
+2019,TRUE,Yes,Yes,No,I don't know,I don't know,Somewhat easy,No,FALSE,9,7,3,31,M,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Somewhat easy,Yes,TRUE,3,6,2,41,M,United States of America
+2019,TRUE,I don't know,No,No,No,I don't know,Neither easy nor difficult,No,FALSE,0,0,1,40,M,Croatia
+2019,TRUE,Yes,Yes,No,Yes,Yes,Somewhat difficult,Maybe,TRUE,9,7,2,49,M,Other
+2019,TRUE,Yes,Yes,No,I don't know,I don't know,I don't know,No,FALSE,5,2,3,37,M,United States of America
+2019,TRUE,No,N/A,No,No,I don't know,Somewhat easy,Maybe,FALSE,4,3,2,55,M,United Kingdom
+2019,TRUE,I don't know,Yes,Yes,No,Yes,Somewhat difficult,Maybe,TRUE,4,3,2,30,M,United States of America
+2019,TRUE,I don't know,No,No,No,Yes,Very easy,Yes,TRUE,7,3,4,28,M,United States of America
+2019,TRUE,I don't know,No,No,No,I don't know,Neither easy nor difficult,Maybe,FALSE,5,2,2,28,F,United States of America
+2019,TRUE,I don't know,Yes,No,No,Yes,Somewhat difficult,Maybe,FALSE,7,5,2,36,NB,United Kingdom
+2019,TRUE,No,No,No,No,No,Somewhat difficult,Yes,FALSE,0,0,3,24,M,Ghana
+2019,TRUE,Yes,No,No,Yes,I don't know,I don't know,No,FALSE,5,4,2,55,M,United States of America
+2019,TRUE,Yes,Yes,No,I don't know,Yes,Neither easy nor difficult,Yes,TRUE,4,6,3,32,M,Norway
+2019,TRUE,Yes,Yes,Yes,Yes,Yes,Somewhat difficult,Yes,TRUE,10,5,3,33,M,United States of America
+2019,TRUE,Yes,Yes,No,No,I don't know,I don't know,Maybe,TRUE,7,5,4,30,F,Portugal
+2019,TRUE,Yes,No,No,I don't know,Yes,Very easy,Yes,FALSE,9,9,4,30,M,Portugal
+2019,TRUE,Yes,Yes,Yes,No,I don't know,I don't know,Maybe,FALSE,7,7,3,34,M,Portugal
+2019,TRUE,No,No,No,No,I don't know,Very easy,Yes,FALSE,8,7,3,36,F,Portugal
+2019,TRUE,No,N/A,No,No,I don't know,Somewhat easy,Maybe,FALSE,8,5,2,30,M,Portugal
+2019,TRUE,No,N/A,Yes,No,No,I don't know,No,FALSE,9,8,2,29,M,Portugal
+2019,TRUE,No,No,No,No,No,Somewhat easy,Yes,FALSE,6,3,3,34,M,Portugal
+2019,TRUE,No,Yes,No,No,No,Very easy,Yes,TRUE,3,3,3,40,M,Portugal
+2019,TRUE,Not eligible for coverage / NA,N/A,No,No,I don't know,I don't know,No,FALSE,8,5,3,31,NB,Portugal
+2019,TRUE,I don't know,No,No,I don't know,Yes,I don't know,Maybe,FALSE,9,8,4,27,M ,Portugal
+2019,TRUE,Yes,Yes,No,No,Yes,Somewhat easy,Yes,FALSE,7,3,1,36,M,Portugal
+2019,TRUE,I don't know,No,No,I don't know,I don't know,Neither easy nor difficult,Maybe,FALSE,8,5,2,28,M,Portugal
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Somewhat easy,Maybe,TRUE,5,7,2,34,M,United Kingdom
+2019,TRUE,I don't know,No,No,No,I don't know,Somewhat easy,Yes,FALSE,5,5,2,28,M,Portugal
+2019,TRUE,Yes,Yes,No,No,I don't know,I don't know,No,FALSE,7,4,2,36,M,Portugal
+2019,TRUE,Yes,Yes,I don't know,No,Yes,Somewhat easy,Yes,FALSE,10,8,4,24,M,Portugal
+2019,TRUE,Yes,Yes,No,No,Yes,I don't know,Maybe,FALSE,5,5,4,32,M,United States of America
+2019,TRUE,I don't know,No,I don't know,I don't know,I don't know,Somewhat easy,Maybe,FALSE,6,5,3,39,M,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Somewhat easy,Maybe,FALSE,7,7,3,32,F,United States of America
+2019,TRUE,Yes,No,Yes,Yes,Yes,Somewhat easy,Yes,FALSE,7,7,3,42,M,United Kingdom
+2019,TRUE,Yes,Yes,No,Yes,I don't know,I don't know,No,FALSE,10,8,2,41,M,United States of America
+2019,TRUE,Yes,Yes,Yes,No,I don't know,Somewhat difficult,No,FALSE,8,4,2,32,M,Canada
+2019,TRUE,Yes,No,I don't know,Yes,I don't know,Very easy,Yes,FALSE,7,8,3,31,F,United States of America
+2019,TRUE,Not eligible for coverage / NA,N/A,No,No,I don't know,Somewhat easy,Maybe,FALSE,8,7,3,34,NB,Switzerland
+2019,TRUE,Yes,No,Yes,Yes,I don't know,Difficult,No,FALSE,4,1,2,36,NB,United Kingdom
+2019,TRUE,I don't know,No,Yes,I don't know,Yes,Very easy,Yes,FALSE,10,10,3,33,M,Switzerland
+2019,TRUE,I don't know,No,No,I don't know,Yes,Somewhat easy,Maybe,FALSE,5,5,3,30,M,United States of America
+2019,TRUE,I don't know,Yes,No,No,I don't know,Difficult,Maybe,TRUE,3,0,1,45,F,United States of America
+2019,TRUE,Yes,No,Yes,Yes,I don't know,Very easy,Yes,FALSE,7,7,4,30,M,United States of America
+2019,TRUE,Yes,No,No,No,I don't know,Somewhat difficult,No,FALSE,5,5,3,29,M,Portugal
+2019,TRUE,I don't know,No,No,I don't know,I don't know,I don't know,No,FALSE,5,2,1,41,M,United States of America
+2019,TRUE,Yes,Yes,No,Yes,Yes,Very easy,Yes,TRUE,8,8,2,42,M,United States of America
+2019,TRUE,I don't know,No,No,No,I don't know,I don't know,Yes,FALSE,5,3,2,32,M,United States of America
+2019,TRUE,I don't know,No,I don't know,I don't know,I don't know,Very easy,Yes,FALSE,6,5,4,32,M,United States of America
+2019,TRUE,Yes,Yes,No,No,Yes,Very easy,No,FALSE,5,8,2,20,F,United States of America
+2019,TRUE,I don't know,No,No,No,I don't know,Very easy,Yes,FALSE,7,7,3,38,M,United States of America
+2019,TRUE,I don't know,Yes,No,No,I don't know,Neither easy nor difficult,Maybe,FALSE,8,5,3,31,M,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,Yes,Somewhat difficult,No,FALSE,3,1,4,26,M,United States of America
+2019,TRUE,Yes,No,No,No,Yes,Somewhat easy,Yes,TRUE,5,6,4,40,M,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Somewhat easy,Yes,TRUE,5,5,4,28,M,United States of America
+2019,TRUE,Yes,No,No,Yes,I don't know,I don't know,No,TRUE,6,3,1,30,M,United States of America
+2019,TRUE,I don't know,No,No,No,I don't know,I don't know,Yes,TRUE,10,3,5,30,M,United States of America
+2019,TRUE,No,N/A,No,No,I don't know,Somewhat easy,Maybe,FALSE,0,0,1,34,M,Poland
+2019,TRUE,Yes,No,No,I don't know,I don't know,I don't know,Yes,FALSE,7,5,4,42,M,United States of America
+2019,TRUE,Yes,No,No,No,I don't know,Somewhat easy,Yes,TRUE,5,5,3,42,M,United States of America
+2019,TRUE,Yes,Yes,I don't know,I don't know,Yes,I don't know,Maybe,FALSE,8,5,4,35,M,United States of America
+2019,TRUE,No,N/A,No,No,I don't know,Somewhat easy,No,FALSE,6,2,2,27,F,Spain
+2019,TRUE,No,No,No,No,No,Somewhat easy,No,FALSE,1,1,1,42,M,India
+2019,TRUE,I don't know,N/A,No,No,I don't know,I don't know,Maybe,FALSE,5,5,4,35,F,Brazil
+2019,TRUE,Yes,No,No,No,I don't know,Very easy,Yes,FALSE,5,9,3,37,M,United States of America
+2019,TRUE,Yes,No,Yes,Yes,Yes,Very easy,Yes,TRUE,8,8,3,42,F,United Kingdom
+2019,TRUE,Yes,No,Yes,Yes,Yes,Difficult,No,TRUE,8,4,2,49,M,Netherlands
+2019,TRUE,I don't know,No,Yes,Yes,I don't know,Somewhat difficult,No,FALSE,6,6,3,41,F,United Kingdom
+2019,TRUE,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Yes,TRUE,8,8,3,33,M,United Kingdom
+2019,TRUE,Yes,Yes,Yes,I don't know,I don't know,Somewhat easy,Yes,TRUE,5,5,2,27,M,United States of America
+2019,TRUE,I don't know,No,Yes,No,Yes,Somewhat difficult,Maybe,FALSE,8,3,2,28,M,United States of America
+2019,TRUE,Yes,Yes,No,No,I don't know,Somewhat difficult,Maybe,FALSE,6,4,1,49,F,Canada
+2019,TRUE,No,N/A,I don't know,No,Yes,Very easy,Yes,TRUE,10,10,1,45,M,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Somewhat easy,Yes,TRUE,6,7,2,29,M,United States of America
+2019,TRUE,I don't know,No,No,I don't know,I don't know,Somewhat easy,Maybe,FALSE,3,3,1,40,M,United States of America
+2019,TRUE,Yes,No,No,No,I don't know,I don't know,No,FALSE,2,2,2,32,M,United States of America
+2019,TRUE,Yes,Yes,Yes,I don't know,I don't know,Difficult,Yes,TRUE,7,4,2,22,F,United States of America
+2019,TRUE,Yes,Yes,Yes,I don't know,Yes,Very easy,Yes,TRUE,8,8,2,28,M,United States of America
+2019,TRUE,I don't know,No,Yes,I don't know,I don't know,I don't know,No,FALSE,5,4,1,29,F,United States of America
+2019,TRUE,Yes,No,No,I don't know,I don't know,I don't know,Maybe,FALSE,5,5,3,38,F,United States of America
+2019,TRUE,I don't know,No,No,I don't know,I don't know,Very easy,No,FALSE,6,5,2,30,M,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Difficult,Maybe,FALSE,10,5,2,38,F,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Difficult,Maybe,TRUE,8,5,1,51,F,United States of America
+2019,TRUE,Yes,Yes,I don't know,Yes,Yes,Very easy,No,TRUE,7,5,3,26,M,United States of America
+2019,TRUE,Yes,No,Yes,Yes,Yes,Very easy,Yes,FALSE,8,8,3,48,M,United Kingdom
+2019,TRUE,Not eligible for coverage / NA,N/A,No,No,I don't know,Very easy,Maybe,TRUE,4,8,5,31,M,Israel
+2019,TRUE,Yes,No,No,Yes,Yes,Neither easy nor difficult,Maybe,FALSE,8,8,3,63,M,United States of America
+2019,TRUE,No,No,No,No,I don't know,Difficult,No,FALSE,7,5,3,30,F,Turkey
+2019,TRUE,I don't know,No,No,I don't know,I don't know,Very easy,Maybe,FALSE,10,10,3,34,M,Switzerland
+2019,TRUE,No,N/A,No,No,I don't know,Somewhat easy,Maybe,TRUE,6,3,2,41,M,Netherlands
+2019,TRUE,I don't know,No,No,I don't know,I don't know,Somewhat difficult,Maybe,FALSE,6,3,1,32,M,United States of America
+2019,TRUE,I don't know,No,No,I don't know,I don't know,Somewhat difficult,No,FALSE,8,6,2,28,NB,United States of America
+2019,TRUE,Yes,No,No,No,I don't know,Somewhat difficult,Maybe,TRUE,5,3,2,40,M,United States of America
+2019,TRUE,I don't know,No,No,No,I don't know,Somewhat easy,Yes,FALSE,4,0,3,27,M,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Yes,TRUE,7,7,3,34,M,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Somewhat easy,Yes,TRUE,9,10,4,34,M,United States of America
+2019,TRUE,Yes,Yes,No,Yes,I don't know,I don't know,Maybe,TRUE,6,1,1,27,F,United States of America
+2019,TRUE,Yes,Yes,No,No,Yes,Neither easy nor difficult,Maybe,FALSE,5,3,3,44,F,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Neither easy nor difficult,Yes,FALSE,8,10,2,26,NB,United States of America
+2019,TRUE,Yes,Yes,No,I don't know,Yes,Very easy,Yes,TRUE,7,8,3,39,M,United States of America
+2019,TRUE,Not eligible for coverage / NA,Yes,No,No,Yes,Somewhat easy,Maybe,FALSE,9,6,3,25,F,United States of America
+2019,TRUE,I don't know,N/A,Yes,No,I don't know,Very easy,Maybe,TRUE,10,10,3,33,M,Canada
+2019,TRUE,Yes,Yes,Yes,No,Yes,Very easy,Yes,FALSE,5,7,2,39,M,United States of America
+2019,TRUE,Not eligible for coverage / NA,N/A,Yes,I don't know,Yes,I don't know,Maybe,FALSE,5,5,3,19,F,United States of America
+2019,TRUE,Yes,Yes,No,No,I don't know,Somewhat difficult,No,FALSE,0,0,3,38,M,United States of America
+2019,TRUE,I don't know,Yes,I don't know,Yes,I don't know,Somewhat easy,No,FALSE,8,10,5,23,F ,Italy
+2019,TRUE,I don't know,No,No,No,Yes,Somewhat easy,Yes,TRUE,5,4,4,38,F,New Zealand
+2019,TRUE,Yes,No,No,I don't know,I don't know,Very easy,Maybe,FALSE,6,6,3,42,M,United States of America
+2019,TRUE,I don't know,Yes,No,No,I don't know,Difficult,No,FALSE,5,0,1,39,F,United States of America
+2019,TRUE,Not eligible for coverage / NA,No,No,No,I don't know,Very easy,Yes,FALSE,8,5,3,30,M,Spain
+2019,TRUE,No,No,I don't know,I don't know,I don't know,Very easy,Yes,TRUE,8,6,2,39,M,Germany
+2019,TRUE,I don't know,No,No,No,I don't know,Very easy,Maybe,FALSE,10,6,2,50,M,Italy
+2019,TRUE,Yes,No,Yes,I don't know,I don't know,Very easy,Yes,FALSE,6,7,3,35,M,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,Yes,Very easy,Yes,FALSE,5,10,3,27,F,Canada
+2019,TRUE,Yes,No,No,No,No,Somewhat easy,No,FALSE,5,5,2,24,F,Canada
+2019,TRUE,Yes,Yes,I don't know,I don't know,I don't know,Somewhat easy,Yes,FALSE,10,10,3,29,NB,United States of America
+2019,TRUE,Yes,Yes,No,No,I don't know,I don't know,Yes,FALSE,10,2,1,40,F,Ireland
+2019,TRUE,Not eligible for coverage / NA,N/A,No,No,I don't know,I don't know,Maybe,FALSE,9,2,2,27,M,France
+2019,TRUE,No,No,No,No,No,Difficult,No,FALSE,10,0,1,39,M,Canada
+2019,TRUE,No,No,No,No,I don't know,Somewhat easy,No,FALSE,1,1,3,28,M,Hong Kong
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,I don't know,Maybe,FALSE,8,8,3,29,F,United States of America
+2019,TRUE,Not eligible for coverage / NA,No,No,No,I don't know,Somewhat easy,Yes,TRUE,8,5,2,25,F,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,Yes,I don't know,Maybe,FALSE,8,7,2,37,M,United States of America
+2019,TRUE,I don't know,No,No,No,I don't know,Very easy,Maybe,FALSE,7,6,3,22,M,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Very easy,Yes,TRUE,7,7,3,35,F,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Somewhat easy,Maybe,TRUE,8,5,2,45,M,United States of America
+2019,TRUE,Yes,No,Yes,Yes,Yes,Very easy,Yes,FALSE,9,9,3,38,F,Pakistan
+2019,TRUE,I don't know,No,Yes,I don't know,I don't know,Neither easy nor difficult,Maybe,TRUE,4,4,3,28,F ,United States of America
+2019,TRUE,Yes,No,No,Yes,Yes,Somewhat difficult,No,FALSE,9,9,4,25,M,United States of America
+2019,TRUE,Not eligible for coverage / NA,N/A,No,I don't know,I don't know,I don't know,Maybe,FALSE,6,6,3,38,M,Brazil
+2019,TRUE,I don't know,No,Yes,No,I don't know,Somewhat easy,No,FALSE,8,6,4,25,M,India
+2019,TRUE,Yes,Yes,No,No,Yes,Very easy,Yes,TRUE,8,8,2,49,M,Canada
+2019,TRUE,Yes,Yes,No,No,Yes,Somewhat difficult,No,FALSE,9,3,2,32,M,Brazil
+2019,TRUE,Yes,Yes,No,I don't know,Yes,Somewhat easy,Yes,TRUE,7,3,3,27,M,United States of America
+2019,TRUE,No,No,No,Yes,Yes,Somewhat difficult,No,TRUE,6,1,1,36,M,India
+2019,TRUE,Yes,Yes,No,No,I don't know,Neither easy nor difficult,No,FALSE,5,2,1,27,F,United States of America
+2019,TRUE,Yes,Yes,No,No,Yes,Very easy,Yes,TRUE,7,5,2,47,NB,United States of America
+2019,TRUE,I don't know,No,No,No,I don't know,I don't know,Maybe,FALSE,5,3,2,25,M,India
+2019,TRUE,I don't know,No,No,No,I don't know,Somewhat easy,Yes,FALSE,2,3,3,30,F,United States of America
+2019,TRUE,No,N/A,No,No,No,Neither easy nor difficult,No,FALSE,3,2,2,24,F,South Africa
+2019,TRUE,I don't know,No,No,No,Yes,Somewhat easy,No,FALSE,10,2,1,26,F ,United States of America
+2019,TRUE,Yes,Yes,No,No,I don't know,Neither easy nor difficult,No,FALSE,6,3,1,32,F,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Difficult,Maybe,FALSE,5,5,2,43,F,United States of America
+2019,TRUE,I don't know,No,No,No,I don't know,Somewhat easy,No,FALSE,7,2,3,48,NB,United States of America
+2019,TRUE,Yes,Yes,No,No,I don't know,Somewhat difficult,No,FALSE,7,5,2,28,F,United States of America
+2019,TRUE,No,No,No,No,I don't know,Somewhat easy,Maybe,FALSE,5,2,2,26,F,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,FALSE,8,8,4,37,M,Estonia
+2019,TRUE,Yes,No,Yes,Yes,Yes,Very easy,Yes,TRUE,7,7,3,42,F,United Kingdom
+2019,TRUE,I don't know,No,No,No,I don't know,Somewhat easy,No,FALSE,5,5,3,34,M,United States of America
+2019,TRUE,I don't know,No,Yes,Yes,I don't know,Difficult,No,FALSE,7,5,3,35,F,India
+2019,TRUE,I don't know,No,No,No,I don't know,Somewhat easy,Yes,FALSE,8,5,3,26,M,India
+2019,TRUE,I don't know,No,No,No,I don't know,Somewhat difficult,No,FALSE,9,1,5,28,M,India
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Somewhat easy,Yes,TRUE,7,7,2,34,F,United States of America
+2019,TRUE,I don't know,No,No,No,I don't know,Difficult,Maybe,FALSE,3,0,2,41,M,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Somewhat easy,No,TRUE,8,8,3,42,F,United States of America
+2019,TRUE,I don't know,N/A,No,I don't know,Yes,Very easy,Yes,TRUE,6,8,3,21,M,United States of America
+2019,TRUE,Yes,Yes,Yes,No,Yes,Somewhat difficult,Yes,FALSE,9,3,3,30,F,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,Yes,I don't know,Yes,TRUE,8,8,3,46,M,United States of America
+2019,TRUE,I don't know,Yes,No,No,Yes,Somewhat difficult,Maybe,FALSE,6,4,3,41,M,India
+2019,TRUE,Yes,No,No,Yes,I don't know,Somewhat difficult,Yes,TRUE,6,3,4,41,M,Estonia
+2019,TRUE,No,No,Yes,No,No,Somewhat difficult,No,TRUE,4,3,3,27,N,Germany
+2019,TRUE,I don't know,No,Yes,Yes,I don't know,I don't know,No,FALSE,8,6,2,47,F,United States of America
+2019,TRUE,Yes,Yes,No,I don't know,Yes,Somewhat easy,Yes,FALSE,8,5,3,24,M,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,TRUE,7,7,4,40,M,United States of America
+2019,TRUE,Yes,Yes,No,No,I don't know,Neither easy nor difficult,No,FALSE,5,5,3,37,M,United States of America
+2019,TRUE,I don't know,No,No,Yes,I don't know,Somewhat easy,Yes,FALSE,5,3,3,38,M,United States of America
+2019,TRUE,I don't know,No,I don't know,Yes,I don't know,Somewhat difficult,Yes,FALSE,2,0,1,47,M,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,Yes,Neither easy nor difficult,Yes,TRUE,5,5,3,30,F,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,I don't know,Very easy,Yes,TRUE,9,9,3,42,M,Canada
+2019,TRUE,No,No,No,No,I don't know,Very easy,No,FALSE,6,0,1,39,M,Greece
+2019,TRUE,I don't know,No,No,I don't know,Yes,I don't know,Maybe,FALSE,7,0,2,42,M,United States of America
+2019,TRUE,Yes,Yes,No,No,Yes,I don't know,Yes,FALSE,7,1,2,29,M,Poland
+2019,TRUE,Yes,Yes,Yes,I don't know,I don't know,Somewhat easy,No,FALSE,7,2,1,55,M,United States of America
+2019,TRUE,I don't know,No,I don't know,I don't know,I don't know,Very easy,Maybe,FALSE,5,5,1,34,NB,United States of America
+2019,TRUE,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Yes,FALSE,8,9,4,45,M,Japan
+2019,TRUE,No,N/A,No,No,I don't know,Neither easy nor difficult,Maybe,TRUE,7,4,2,30,M,New Zealand
+2019,TRUE,Yes,No,No,I don't know,I don't know,Somewhat difficult,No,FALSE,4,2,3,42,F,United States of America
+2019,TRUE,Yes,No,No,No,Yes,Very easy,Yes,TRUE,8,7,2,26,F,Brazil
+2019,TRUE,No,No,No,No,I don't know,Very easy,Maybe,FALSE,8,5,3,31,F,United States of America
+2019,TRUE,No,No,No,No,Yes,Difficult,No,FALSE,9,3,2,30,F,India
+2019,TRUE,Yes,Yes,No,Yes,Yes,Somewhat difficult,Maybe,TRUE,5,3,3,24,F,United States of America
