@@ -1,12 +1,12 @@
 // Parse data
 
-var jsPhymentData = JSON.parse(phymentData);
-var jsIndustryData = JSON.parse(industryData);
-var jsKnowData = JSON.parse(knowData);
+// var jsPhymentData = phymentData;
+// var jsIndustryData = JSON.parse(industryData);
+// var jsKnowData = JSON.parse(knowData);
 
-console.log(jsPhymentData);
-console.log(jsIndustryData);
-console.log(jsKnowData);
+console.log(phymentData);
+// console.log(jsIndustryData);
+// console.log(jsKnowData);
 
 
 // // Load data from mergedmentalhealth.csv
