@@ -9,6 +9,28 @@ console.log(phymentData);
 // console.log(jsKnowData);
 
 
+// Multiple line graph: phyment data
+
+// Bar graph: industry data
+
+// Pie chart: know options data -- also need dropdown for each year
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // // Load data from mergedmentalhealth.csv
 // d3.csv("MentalHealthDataProject/mergedmentalhealth.csv").then(function(data) {
 
