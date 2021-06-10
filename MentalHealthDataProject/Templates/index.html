@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>Mental Health in Tech Insights</title>
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://bootswatch.com/5/sketchy/bootstrap.min.css">
+   <link rel="stylesheet" href="https://bootswatch.com/5/superhero/bootstrap.min.css">
 
 </head>
 
@@ -14,45 +14,34 @@
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
         <h1>Mental Health in Tech Dashboard</h1>
-        <p>Use the charts below to explore the dataset</p>
+        <p>Survey results from OSMI 2017-2020 Mental Health in Tech Annual Survey</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-2">
-        <div class="well">
-          <h5>Year</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
-        </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Survey Results</h3>
-          </div>
-          <div id="sample-metadata" class="panel-body"></div>
-        </div>
+      <div class="col-md-12">
+        <h5 class="text-center">How much importance does your employer place on physical and mental health (scale 1-10)</h5>
+        <div id="line"></div>
       </div>
-      <div class="col-md-5">
+    </div>
+      <div class="col-md-12">
+        <h5 class="text-center">How well does tech industry support mental health issues (scale 1-5)</h5>
         <div id="bar"></div>
       </div>
-      <div class="col-md-5">
-        <div id="gauge"></div>
-      </div>
-    </div>
-    <div class="row">
       <div class="col-md-12">
-        <div id="bubble"></div>
+        <h5 class="text-center">Do you know your options for mental health benefits</h5>
+        <p> <select id="selDataset" onchange="optionChanged(this.value)"></select></p>
+        <div id="pie"></div>
       </div>
     </div>
   </div>
 
-  <div id="footer">
-    <p>Josh and Ryan Project</p>
-  </div>
+  <footer class="footer navbar-fixed-bottom">
+    <p class="text-center">Josh and Ryan Project</p>
+  </footer>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-  <!-- This needs to be changed to our data-->
   <script type="text/javascript">var phymentData ='{{mhData[0]|tojson}}';</script>
   <script type="text/javascript">var industryData ='{{mhData[1]|tojson}}';</script>
   <script type="text/javascript">var knowData ='{{mhData[2]|tojson}}';</script>

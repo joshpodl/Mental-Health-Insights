@@ -1,36 +1,47 @@
-// Load data from mergedmentalhealth.csv
-d3.csv("MentalHealthDataProject/mergedmentalhealth.csv").then(function(data) {
+// Parse data
 
-    // FUNCTION HERE TO FILTER ONLY DATA WHERE tech_company RESPONSE IS "True"
+var jsPhymentData = JSON.parse(phymentData);
+var jsIndustryData = JSON.parse(industryData);
+var jsKnowData = JSON.parse(knowData);
 
-    console.log(data)
+console.log(jsPhymentData);
+console.log(jsIndustryData);
+console.log(jsKnowData);
 
-    // // NOT SURE IF WE NEED TO DO SOMETHING LIKE THIS: Cast integer values in mhData as a number using the unary + operator
-    // // *NOTE: NEED TO FIGURE OUT HOW TO CAST VALUES FOR ALL DATA IN STRING/VARCHAR FORM
-    // data.forEach(function(data) {
-    //     data.year = +data.year;
-    //     data.physical_importance = +data.physical_importance;
-    //     data.mental_importance = +data.mental_importance;
-    //     data.industry_support = +data.industry_support;
-    //     data.age = +data.age});
-});
 
-// Populate dropdown
-function dropdown(){
-    var drop = d3.select("#selDataset")
-    d3.csv("MentalHealthDataProject/mergedmentalhealth.csv").then((sampledata)=>{
-        var year = sampledata.year;
-        year.forEach((data)=>{
-            drop.append("option")
-            .text(data)
-            .property("value", data);
-        });
-        var sample = year[0];
-        metadata(sample);
-        plots(sample);
-    });
-};
-dropdown();
+// // Load data from mergedmentalhealth.csv
+// d3.csv("MentalHealthDataProject/mergedmentalhealth.csv").then(function(data) {
+
+//     // FUNCTION HERE TO FILTER ONLY DATA WHERE tech_company RESPONSE IS "True"
+
+//     console.log(data)
+
+//     // // NOT SURE IF WE NEED TO DO SOMETHING LIKE THIS: Cast integer values in mhData as a number using the unary + operator
+//     // // *NOTE: NEED TO FIGURE OUT HOW TO CAST VALUES FOR ALL DATA IN STRING/VARCHAR FORM
+//     // data.forEach(function(data) {
+//     //     data.year = +data.year;
+//     //     data.physical_importance = +data.physical_importance;
+//     //     data.mental_importance = +data.mental_importance;
+//     //     data.industry_support = +data.industry_support;
+//     //     data.age = +data.age});
+// });
+
+// // Populate dropdown
+// function dropdown(){
+//     var drop = d3.select("#selDataset")
+//     d3.csv("MentalHealthDataProject/mergedmentalhealth.csv").then((sampledata)=>{
+//         var year = sampledata.year;
+//         year.forEach((data)=>{
+//             drop.append("option")
+//             .text(data)
+//             .property("value", data);
+//         });
+//         var sample = year[0];
+//         metadata(sample);
+//         plots(sample);
+//     });
+// };
+// dropdown();
 
 // WEEK 15 HW STARTING TEMPLATE
 
