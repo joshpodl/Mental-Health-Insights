@@ -16,6 +16,24 @@ console.log(phymentData);
 // Pie chart: know options data -- also need dropdown for each year
 
 
+// // Populate dropdown THIS IS A PREVIOUS DROPDOWN EXAMPLE WE CAN WORK OFF OF
+// function dropdown(){
+//     var drop = d3.select("#selDataset")
+//     d3.csv("MentalHealthDataProject/mergedmentalhealth.csv").then((sampledata)=>{
+//         var year = sampledata.year;
+//         year.forEach((data)=>{
+//             drop.append("option")
+//             .text(data)
+//             .property("value", data);
+//         });
+//         var sample = year[0];
+//         metadata(sample);
+//         plots(sample);
+//     });
+// };
+// dropdown();
+
+
 
 
 
@@ -48,22 +66,7 @@ console.log(phymentData);
 //     //     data.age = +data.age});
 // });
 
-// // Populate dropdown
-// function dropdown(){
-//     var drop = d3.select("#selDataset")
-//     d3.csv("MentalHealthDataProject/mergedmentalhealth.csv").then((sampledata)=>{
-//         var year = sampledata.year;
-//         year.forEach((data)=>{
-//             drop.append("option")
-//             .text(data)
-//             .property("value", data);
-//         });
-//         var sample = year[0];
-//         metadata(sample);
-//         plots(sample);
-//     });
-// };
-// dropdown();
+
 
 // WEEK 15 HW STARTING TEMPLATE
 
