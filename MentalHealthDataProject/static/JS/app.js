@@ -103,18 +103,67 @@ Plotly.newPlot("bar", bar, layout);
 
 // Pie chart: know options data
 
-// Populate dropdown
-function dropdown(){
-    var drop = d3.select("#selDataset")
-    years.forEach((data)=>{
-            drop.append("option")
-            .text(data)
-            .property("value", data);
-        });
-        var sample = years[0];
-        plots(sample);
+// Organize data
+var pie1 = [know_yes[0], know_no[0]];
+var pie2 = [know_yes[1], know_no[1]];
+var pie3 = [know_yes[2], know_no[2]];
+var pie4 = [know_yes[3], know_no[3]];
+var labels = ["yes", "no"];
+
+// Plot
+function init() {
+    var data = [{
+      values: pie1,
+      labels: labels,
+      type: "pie"
+    }];
+    Plotly.newPlot("pie", data);
 };
-dropdown();
+
+d3.selectAll("#selDataset").on("change", getData);
+
+function getData() {
+    var dropdownMenu = d3.select("#selDataset");
+    var dataset = dropdownMenu.property("value");
+    var data = []
+
+    if (dataset == '2017') {
+        values = pie1;
+    }
+    
+    else if (dataset == '2018') {
+        values = pie2;
+    }
+
+    else if (dataset == '2019') {
+       values = pie3;
+    }
+
+    else if (dataset == '2020') {
+        values = pie4;
+    }
+
+    updatePlotly(values);
+};
+
+function updatePlotly(newData) {
+    Plotly.restyle("pie", "values", [newData])
+};
+
+init()
+
+// // Populate dropdown
+// function dropdown(){
+//     var drop = d3.select("#selDataset")
+//     years.forEach((data)=>{
+//             drop.append("option")
+//             .text(data)
+//             .property("value", data);
+//         });
+//         var sample = years[0];
+//         plots(sample);
+// };
+// dropdown();
 
 // // Create bar chart and bubble chart
 // function plots(sampleID){
