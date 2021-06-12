@@ -95,8 +95,8 @@ var bar = [trace];
 var layout = {
     title: `Industry Support with Mental Health Resources`,
     yaxis: {title: 'Average Rating', range: [0,5]},
-    xaxis: {title: 'Year'},
-    font: {size: 8},
+    xaxis: {title: 'Year', showticklabels: false},
+    font: {size: 8}   
 };
 
 Plotly.newPlot("bar", bar, layout);
