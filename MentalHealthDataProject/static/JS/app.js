@@ -101,26 +101,60 @@ var layout = {
 
 Plotly.newPlot("bar", bar, layout);
 
-// Pie chart: know options data -- also need dropdown for each year
+// Pie chart: know options data
 
+// Populate dropdown
+function dropdown(){
+    var drop = d3.select("#selDataset")
+    years.forEach((data)=>{
+            drop.append("option")
+            .text(data)
+            .property("value", data);
+        });
+        var sample = years[0];
+        plots(sample);
+};
+dropdown();
 
-// // Populate dropdown THIS IS A PREVIOUS DROPDOWN EXAMPLE WE CAN WORK OFF OF
-// function dropdown(){
-//     var drop = d3.select("#selDataset")
-//     d3.csv("MentalHealthDataProject/mergedmentalhealth.csv").then((sampledata)=>{
-//         var year = sampledata.year;
-//         year.forEach((data)=>{
-//             drop.append("option")
-//             .text(data)
-//             .property("value", data);
-//         });
-//         var sample = year[0];
-//         metadata(sample);
-//         plots(sample);
+// // Create bar chart and bubble chart
+// function plots(sampleID){
+//     d3.json("samples.json").then((sampledata)=>{
+//         var samples = sampledata.samples;
+//         var dataArray = samples.filter(row=>row.id==sampleID);
+//         console.log(dataArray);
+//         var sample = dataArray[0];
+//         var otu_ids = sample.otu_ids;
+//         var sample_values = sample.sample_values;
+//         var otu_labels = sample.otu_labels;
+
+//         // Bar chart
+//         var barData = [{
+//             x: sample_values.slice(0,10).reverse(),
+//             y: otu_ids.slice(0,10).map(otu_ids=>`OTU${otu_ids}`).reverse(),
+//             text: otu_labels.slice(0,10).reverse(),
+//             type: "bar",
+//             orientation: "h"
+//         }];
+//         Plotly.newPlot("bar", barData);
+
+//         // Bubble chart
+//         var bubbleData = [{
+//             x: otu_ids,
+//             y: sample_values,
+//             mode: "markers",
+//             marker: {
+//                 size: sample_values,
+//                 color: otu_ids},
+//             text: otu_labels 
+//         }];
+//         Plotly.newPlot("bubble", bubbleData);
 //     });
 // };
-// dropdown();
 
+// // Have metadata and plots appear when an ID is clicked
+// function optionChanged(newData){
+//     plots(newData);
+// };
 
 
 
